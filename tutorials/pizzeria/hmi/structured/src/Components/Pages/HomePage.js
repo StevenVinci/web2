@@ -1,4 +1,4 @@
-import { clearPage } from "../../utils/render";
+import { clearPage } from '../../utils/render';
 
 const MENU = [
   {
@@ -48,6 +48,7 @@ const DRINKS = [
 
 const HomePage = () => {
   clearPage();
+
   renderMenuFromString(MENU);
 
   attachOnMouseEventsToGoGreen();
